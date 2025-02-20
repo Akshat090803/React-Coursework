@@ -1,0 +1,81 @@
+.parent{
+  position: relative;
+  display: flex;
+  align-items: center;
+ 
+}
+
+.ball{
+  width: 35px;
+  height: 35px;
+  background-color: white;
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+  color: black;
+  display: grid;
+  place-items: center;
+  position: absolute;
+  transition: all ease-in 0.3s;
+  -webkit-transition: all ease-in 0.3s;
+  -moz-transition: all ease-in 0.3s;
+  -ms-transition: all ease-in 0.3s;
+  -o-transition: all ease-in 0.3s;
+}
+
+.progress{
+  width: 60vw;
+  height: 10px;
+  background-color: antiquewhite;
+  border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+ 
+}
+
+.progress-increase{
+  height: 10px;
+  background-color: lightblue;
+  position: absolute;
+  border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+  transition: all ease-in 0.3s;
+  -webkit-transition: all ease-in 0.3s;
+  -moz-transition: all ease-in 0.3s;
+  -ms-transition: all ease-in 0.3s;
+  -o-transition: all ease-in 0.3s;
+
+  border: 2px solid #0951ec;
+  
+}
+
+
+.two{
+  left: 32%;
+}
+.three{
+  left: 64%;
+}
+.four{
+  left: 96%;
+}
+
+.btn-div{
+  display: grid;
+  grid-template-columns: repeat(2,1fr);
+  gap: 10px;
+}
+
+.active{
+  border: 4px solid #0951ec;
+  background-color: lightblue;
+  font-weight: bold;
+  
+}
